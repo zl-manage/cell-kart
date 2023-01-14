@@ -1,17 +1,17 @@
+import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./codes/screens/home"
+import Landing from "./codes/screens/landing"
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Landing />} />
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
