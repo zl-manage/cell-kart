@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+    font-family: sans-serif;
 }
 
 :root {
     --universalPadding: 200px;
-    --mainThemeColour: #A5DEF1;
+    --mainThemeColour: #F19C4E;
+    --secondaryThemeColour: #DAD9CA;
     --aldrichFont: 'Aldrich', sans-serif;
 }
