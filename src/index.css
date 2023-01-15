@@ -12,3 +12,7 @@
     --secondaryThemeColour: #DAD9CA;
     --aldrichFont: 'Aldrich', sans-serif;
 }
+
+a {
+    text-decoration: none;
+}

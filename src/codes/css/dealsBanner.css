@@ -13,7 +13,11 @@
 .dealsBannerMain div {
     height: 100%;
     width: calc(100% / 3);
-    color: var(--mainThemeColour);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
 }
 
 .dealsBannerMain .phoneImage {
@@ -27,4 +31,16 @@
     position: absolute;
     bottom: -20%;
     left: 0;
+}
+
+.dealsBannerMain .shopBtn {
+    justify-content: end;
+}
+
+.dealsBannerMain .shopBtn a {
+    color: white;
+    position: absolute;
+    padding: 15px 20px;
+    background: var(--mainThemeColour);
+    border-radius: 10px;
 }
