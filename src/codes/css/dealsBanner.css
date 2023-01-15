@@ -1,0 +1,30 @@
+.dealsBannerMain {
+    margin-top: 125px;
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url("../assets/images/wave.jpg");
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 var(--universalPadding);
+    overflow: hidden;
+}
+
+.dealsBannerMain div {
+    height: 100%;
+    width: calc(100% / 3);
+    color: var(--mainThemeColour);
+}
+
+.dealsBannerMain .phoneImage {
+    position: relative;
+}
+
+.dealsBannerMain div img {
+    height: 75%;
+    width: auto;
+    aspect-ratio: 1/1;
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+}
