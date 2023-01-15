@@ -1,9 +1,36 @@
 import React from 'react'
 import "../css/topSearch.css"
+import Cards from './cards'
 
 const TopSearch = () => {
   return (
-    <div>TopSearch</div>
+    <>
+        <div className="topSearchMain">
+            <h3>top search</h3>
+            <div className="cardsSection">
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+            </div>
+        </div>
+    </>
   )
 }
 

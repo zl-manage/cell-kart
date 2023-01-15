@@ -16,3 +16,8 @@
 a {
     text-decoration: none;
 }
+
+.padding {
+    padding: 0 var(--universalPadding);
+    margin-top: 50px;
+}

@@ -1,8 +1,9 @@
 import React from 'react'
+import "../css/cards.css"
 
 const Cards = () => {
   return (
-    <div>Cards</div>
+    <div className='cardMain'>Cards</div>
   )
 }
 
